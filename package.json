@@ -21,7 +21,7 @@
   "dependencies": {
     "walkdir": "0.0.7",
     "through2": "~0.2.3"
-  }
+  },
   "author": {
     "name": "Andrew Chilton",
     "email": "andychilton@gmail.com",
