@@ -1,0 +1,38 @@
+{
+  "name": "walkdir-hash",
+  "description": "Stream all filenames in a dir (recursively) and receive the filename, stat and your specified hash for each file.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "homepage": "https://github.com/chilts/walkdir-hash/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chilts/walkdir-hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chilts/walkdir-hash/issues",
+    "email": "andychilton@gmail.com"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "set -e; for FILE in test/*.js; do echo $FILE; node $FILE; done"
+  },
+  "dependencies": {
+    "walkdir": "0.0.7",
+    "through2": "~0.2.3"
+  }
+  "author": {
+    "name": "Andrew Chilton",
+    "email": "andychilton@gmail.com",
+    "url": "http://chilts.org/"
+  },
+  "contributors": [],
+  "licenses" : [{
+    "type" : "MIT",
+    "url" : "http://chilts.mit-license.org/2013/"
+  }],
+  "keywords": [
+    "walkdir", "find", "hash", "crypto", "walk", "files", "file", "fs"
+  ]
+}
